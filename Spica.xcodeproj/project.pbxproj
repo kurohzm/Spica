@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA3C8CD51C9DB68D009E2355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3C8CD41C9DB68D009E2355 /* AppDelegate.swift */; };
+		BA3C8CD71C9DB68D009E2355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3C8CD61C9DB68D009E2355 /* ViewController.swift */; };
+		BA3C8CDA1C9DB68D009E2355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3C8CD81C9DB68D009E2355 /* Main.storyboard */; };
+		BA3C8CDD1C9DB68D009E2355 /* Spica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA3C8CDB1C9DB68D009E2355 /* Spica.xcdatamodeld */; };
+		BA3C8CDF1C9DB68D009E2355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3C8CDE1C9DB68D009E2355 /* Assets.xcassets */; };
+		BA3C8CE21C9DB68D009E2355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3C8CE01C9DB68D009E2355 /* LaunchScreen.storyboard */; };
+		BA3C8CED1C9DB68D009E2355 /* SpicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3C8CEC1C9DB68D009E2355 /* SpicaTests.swift */; };
+		BA3C8CF81C9DB68D009E2355 /* SpicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3C8CF71C9DB68D009E2355 /* SpicaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA3C8CE91C9DB68D009E2355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA3C8CC91C9DB68D009E2355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3C8CD01C9DB68D009E2355;
+			remoteInfo = Spica;
+		};
+		BA3C8CF41C9DB68D009E2355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA3C8CC91C9DB68D009E2355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3C8CD01C9DB68D009E2355;
+			remoteInfo = Spica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA3C8CD11C9DB68D009E2355 /* Spica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3C8CD41C9DB68D009E2355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA3C8CD61C9DB68D009E2355 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA3C8CD91C9DB68D009E2355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA3C8CDC1C9DB68D009E2355 /* Spica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spica.xcdatamodel; sourceTree = "<group>"; };
+		BA3C8CDE1C9DB68D009E2355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA3C8CE11C9DB68D009E2355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA3C8CE31C9DB68D009E2355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3C8CE81C9DB68D009E2355 /* SpicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpicaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3C8CEC1C9DB68D009E2355 /* SpicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpicaTests.swift; sourceTree = "<group>"; };
+		BA3C8CEE1C9DB68D009E2355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3C8CF31C9DB68D009E2355 /* SpicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpicaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3C8CF71C9DB68D009E2355 /* SpicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpicaUITests.swift; sourceTree = "<group>"; };
+		BA3C8CF91C9DB68D009E2355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3C8CCE1C9DB68D009E2355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3C8CE51C9DB68D009E2355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3C8CF01C9DB68D009E2355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA3C8CC81C9DB68D009E2355 = {
+			isa = PBXGroup;
+			children = (
+				BA3C8CD31C9DB68D009E2355 /* Spica */,
+				BA3C8CEB1C9DB68D009E2355 /* SpicaTests */,
+				BA3C8CF61C9DB68D009E2355 /* SpicaUITests */,
+				BA3C8CD21C9DB68D009E2355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3C8CD21C9DB68D009E2355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3C8CD11C9DB68D009E2355 /* Spica.app */,
+				BA3C8CE81C9DB68D009E2355 /* SpicaTests.xctest */,
+				BA3C8CF31C9DB68D009E2355 /* SpicaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3C8CD31C9DB68D009E2355 /* Spica */ = {
+			isa = PBXGroup;
+			children = (
+				BA3C8CD41C9DB68D009E2355 /* AppDelegate.swift */,
+				BA3C8CD61C9DB68D009E2355 /* ViewController.swift */,
+				BA3C8CD81C9DB68D009E2355 /* Main.storyboard */,
+				BA3C8CDE1C9DB68D009E2355 /* Assets.xcassets */,
+				BA3C8CE01C9DB68D009E2355 /* LaunchScreen.storyboard */,
+				BA3C8CE31C9DB68D009E2355 /* Info.plist */,
+				BA3C8CDB1C9DB68D009E2355 /* Spica.xcdatamodeld */,
+			);
+			path = Spica;
+			sourceTree = "<group>";
+		};
+		BA3C8CEB1C9DB68D009E2355 /* SpicaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA3C8CEC1C9DB68D009E2355 /* SpicaTests.swift */,
+				BA3C8CEE1C9DB68D009E2355 /* Info.plist */,
+			);
+			path = SpicaTests;
+			sourceTree = "<group>";
+		};
+		BA3C8CF61C9DB68D009E2355 /* SpicaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA3C8CF71C9DB68D009E2355 /* SpicaUITests.swift */,
+				BA3C8CF91C9DB68D009E2355 /* Info.plist */,
+			);
+			path = SpicaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3C8CD01C9DB68D009E2355 /* Spica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3C8CFC1C9DB68D009E2355 /* Build configuration list for PBXNativeTarget "Spica" */;
+			buildPhases = (
+				BA3C8CCD1C9DB68D009E2355 /* Sources */,
+				BA3C8CCE1C9DB68D009E2355 /* Frameworks */,
+				BA3C8CCF1C9DB68D009E2355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spica;
+			productName = Spica;
+			productReference = BA3C8CD11C9DB68D009E2355 /* Spica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA3C8CE71C9DB68D009E2355 /* SpicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3C8CFF1C9DB68D009E2355 /* Build configuration list for PBXNativeTarget "SpicaTests" */;
+			buildPhases = (
+				BA3C8CE41C9DB68D009E2355 /* Sources */,
+				BA3C8CE51C9DB68D009E2355 /* Frameworks */,
+				BA3C8CE61C9DB68D009E2355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3C8CEA1C9DB68D009E2355 /* PBXTargetDependency */,
+			);
+			name = SpicaTests;
+			productName = SpicaTests;
+			productReference = BA3C8CE81C9DB68D009E2355 /* SpicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA3C8CF21C9DB68D009E2355 /* SpicaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3C8D021C9DB68D009E2355 /* Build configuration list for PBXNativeTarget "SpicaUITests" */;
+			buildPhases = (
+				BA3C8CEF1C9DB68D009E2355 /* Sources */,
+				BA3C8CF01C9DB68D009E2355 /* Frameworks */,
+				BA3C8CF11C9DB68D009E2355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3C8CF51C9DB68D009E2355 /* PBXTargetDependency */,
+			);
+			name = SpicaUITests;
+			productName = SpicaUITests;
+			productReference = BA3C8CF31C9DB68D009E2355 /* SpicaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA3C8CC91C9DB68D009E2355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kurohzm;
+				TargetAttributes = {
+					BA3C8CD01C9DB68D009E2355 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BA3C8CE71C9DB68D009E2355 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BA3C8CD01C9DB68D009E2355;
+					};
+					BA3C8CF21C9DB68D009E2355 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BA3C8CD01C9DB68D009E2355;
+					};
+				};
+			};
+			buildConfigurationList = BA3C8CCC1C9DB68D009E2355 /* Build configuration list for PBXProject "Spica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA3C8CC81C9DB68D009E2355;
+			productRefGroup = BA3C8CD21C9DB68D009E2355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3C8CD01C9DB68D009E2355 /* Spica */,
+				BA3C8CE71C9DB68D009E2355 /* SpicaTests */,
+				BA3C8CF21C9DB68D009E2355 /* SpicaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA3C8CCF1C9DB68D009E2355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3C8CE21C9DB68D009E2355 /* LaunchScreen.storyboard in Resources */,
+				BA3C8CDF1C9DB68D009E2355 /* Assets.xcassets in Resources */,
+				BA3C8CDA1C9DB68D009E2355 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3C8CE61C9DB68D009E2355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3C8CF11C9DB68D009E2355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3C8CCD1C9DB68D009E2355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3C8CD71C9DB68D009E2355 /* ViewController.swift in Sources */,
+				BA3C8CDD1C9DB68D009E2355 /* Spica.xcdatamodeld in Sources */,
+				BA3C8CD51C9DB68D009E2355 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3C8CE41C9DB68D009E2355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3C8CED1C9DB68D009E2355 /* SpicaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3C8CEF1C9DB68D009E2355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3C8CF81C9DB68D009E2355 /* SpicaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA3C8CEA1C9DB68D009E2355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3C8CD01C9DB68D009E2355 /* Spica */;
+			targetProxy = BA3C8CE91C9DB68D009E2355 /* PBXContainerItemProxy */;
+		};
+		BA3C8CF51C9DB68D009E2355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3C8CD01C9DB68D009E2355 /* Spica */;
+			targetProxy = BA3C8CF41C9DB68D009E2355 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA3C8CD81C9DB68D009E2355 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3C8CD91C9DB68D009E2355 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA3C8CE01C9DB68D009E2355 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3C8CE11C9DB68D009E2355 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA3C8CFA1C9DB68D009E2355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA3C8CFB1C9DB68D009E2355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA3C8CFD1C9DB68D009E2355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurohzm.Spica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA3C8CFE1C9DB68D009E2355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurohzm.Spica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA3C8D001C9DB68D009E2355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpicaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurohzm.SpicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spica.app/Spica";
+			};
+			name = Debug;
+		};
+		BA3C8D011C9DB68D009E2355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpicaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurohzm.SpicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spica.app/Spica";
+			};
+			name = Release;
+		};
+		BA3C8D031C9DB68D009E2355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpicaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurohzm.SpicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spica;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BA3C8D041C9DB68D009E2355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpicaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurohzm.SpicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spica;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3C8CCC1C9DB68D009E2355 /* Build configuration list for PBXProject "Spica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3C8CFA1C9DB68D009E2355 /* Debug */,
+				BA3C8CFB1C9DB68D009E2355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3C8CFC1C9DB68D009E2355 /* Build configuration list for PBXNativeTarget "Spica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3C8CFD1C9DB68D009E2355 /* Debug */,
+				BA3C8CFE1C9DB68D009E2355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA3C8CFF1C9DB68D009E2355 /* Build configuration list for PBXNativeTarget "SpicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3C8D001C9DB68D009E2355 /* Debug */,
+				BA3C8D011C9DB68D009E2355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA3C8D021C9DB68D009E2355 /* Build configuration list for PBXNativeTarget "SpicaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3C8D031C9DB68D009E2355 /* Debug */,
+				BA3C8D041C9DB68D009E2355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA3C8CDB1C9DB68D009E2355 /* Spica.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA3C8CDC1C9DB68D009E2355 /* Spica.xcdatamodel */,
+			);
+			currentVersion = BA3C8CDC1C9DB68D009E2355 /* Spica.xcdatamodel */;
+			path = Spica.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA3C8CC91C9DB68D009E2355 /* Project object */;
+}
